@@ -1,0 +1,9 @@
+{
+    "repos": "https://github.com/huya-fed/layui_upload.git",
+    "version": "v1.0.0",
+    "name": "layui_upload",
+    "main": "layui_upload.js",
+    "dependencies": [
+        "huya-fed/layer"
+    ]
+}
