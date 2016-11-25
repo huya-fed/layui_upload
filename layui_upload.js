@@ -42,7 +42,7 @@
 
 			//包裹ui元素
 			if(!options.unwrap){
-				form = '<div class="layui-box layui-upload-button">' + form + '<span class="layui-upload-icon"><i class="layui-icon">&#xe608;</i>'+ (
+				form = '<div class="layui-box layui-upload-button">' + form + '<span class="layui-upload-icon"><i></i>'+ (
 					item.attr('lay-title') || options.title|| ('上传'+ (fileType[type]||'图片') )
 				) +'</span></div>';
 			}
