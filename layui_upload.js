@@ -118,7 +118,9 @@
 			break;
 		}
 		
-		options.before && options.before(input);
+		if (options.before && !options.before(input)) {
+			return false;
+		}
 		item.parent().submit();
 
 		var iframe = $('#'+elemIframe), timer = setInterval(function() {
